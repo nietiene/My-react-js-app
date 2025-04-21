@@ -1,12 +1,13 @@
-import MyFirstApp from "./study.js";
-import { UserInfo } from "./study.js";
-
+// import MyFirstApp from "./study.js";
+// import { UserInfo } from "./study.js";
+import DashBoard from "./nestingComponents/dashboard.js";
 function App() {
   return (
     <> 
-      <MyFirstApp/>
+      {/* <MyFirstApp/> */}
       {/* multiple component */}
-      <UserInfo name={"etiene"} email={"etine@gmail.com"}/>
+      {/* <UserInfo name={"etiene"} email={"etine@gmail.com"}/> */}
+      <DashBoard/>
     </>
 
   );

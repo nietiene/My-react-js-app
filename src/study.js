@@ -48,5 +48,5 @@ const UserInfo = ({name, email}) => {
 
 
 
-export default MyFirstApp 
+export default MyFirstApp ;
 export {UserInfo};
