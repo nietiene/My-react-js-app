@@ -21,4 +21,14 @@ const Product = () => {
     )
 }
 
+
+const Propss = (props) => {
+    return (
+       <div>
+        <p>Name: {props.name}</p>
+        <p>Place: {props.place}</p>
+       </div>
+    )
+}
 export default Product;
+export {Propss};

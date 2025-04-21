@@ -2,8 +2,9 @@
 // import { UserInfo } from "./study.js";
 // import DashBoard from "./nestingComponents/dashboard.js";
 import React from "react";
-import Product from "./cards/Cards.js";
-
+// import Product from "./cards/Cards.js";
+import Program from "./states/useState.js";
+// import { Propss } from "./cards/Cards.js";
 function App() {
   return (
     <> 
@@ -11,7 +12,9 @@ function App() {
       {/* multiple component */}
       {/* <UserInfo name={"etiene"} email={"etine@gmail.com"}/> */}
       {/* <DashBoard/> */}
-      <Product/>
+      {/* <Product/> */}
+      {/* <Propss name={"Etiene"} place={"Bugesera"}/> */}
+      <Program/>
     </>
 
   );
