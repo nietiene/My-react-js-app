@@ -6,8 +6,8 @@ const SideBar = () => {
             <aside>
               <ul>
                 <li>Home</li>
-                <li>Users</li>
                 <li>Settings</li>
+                <li>Users</li>
              </ul>            
             </aside>
         </div>

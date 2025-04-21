@@ -10,11 +10,11 @@ const UserList = () => {
     return (
         <div>
             {list.map((user) => {
-                <ul key={user.id}>
+           return (<ul key={user.id}>
                    <ol>Id: {user.id}</ol>
                    <ol>name: {user.name}</ol>
                 </ul>
-            })}
+            )})}
         </div>
     )
 }
