@@ -1,6 +1,7 @@
 
 const MyFirstApp = () => {
-   
+//JSX 
+
 //     const data = {
 //         name: 'Etiene',
 //         email: 'eti@gmail.com',
@@ -13,7 +14,6 @@ const data = [
     { id: 3, name: 'Eric', email: 'eric@gmail.com', password: 'pazzo'},
     { id: 4, name: 'Pazzo', email: 'pazzo@gmail.com', password: 'pass3'},
 ];
-
 
     return (
 
@@ -35,5 +35,18 @@ const data = [
         </div>
     );
 } 
+// Creating mulitple componets
+const UserInfo = ({name, email}) => {
+     
+    return (
+        <div>
+            <p>name: {name}</p>
+            <p>Email: {email}</p>
+        </div>
+    )
+}
 
-export default MyFirstApp;
+
+
+export default MyFirstApp 
+export {UserInfo};
