@@ -5,7 +5,13 @@ import React from "react";
 // import Product from "./cards/Cards.js";
 // import Program from "./states/useState.js";
 // import { Propss } from "./cards/Cards.js";
-import Todo from "./states/to-do-list.js";
+// import Todo from "./states/to-do-list.js";
+// import Clicks from "./Events/onClick.js";
+// import Chages from "./Events/onChage.js";
+// import Submit from "./Events/onSubmit.js";
+// import Mouse from "./Events/onMouseOver.js";
+// import Search from "./Events/keyDown.js";
+import Form from "./Form-Validation/Form.js";
 function App() {
   return (
     <> 
@@ -16,7 +22,14 @@ function App() {
       {/* <Product/> */}
       {/* <Propss name={"Etiene"} place={"Bugesera"}/> */}
       {/* <Program/> */}
-      <Todo/>
+      {/* <Todo/> */}
+      {/* <Clicks/> */}
+      {/* <Chages/> */}
+      {/* < Submit /> */}
+      {/* < Mouse /> */}
+      {/* <HandleKey/> */}
+      {/* <Search/> */}
+      < Form />
     </>
 
   );
