@@ -28,7 +28,7 @@ const data = [
           {data.map((user) => {
            return(
                   <div key={user.id}>
-                  <p className="font-mono "><strong>Name:</strong> {user.name}</p> 
+                  <p className="font-mono"><strong>Name:</strong> {user.name}</p> 
                   <p className="font-mono "><strong>Email:</strong> {user.email}</p> 
                   <p><strong>Password:</strong> {user.password}</p> 
                 </div>     
