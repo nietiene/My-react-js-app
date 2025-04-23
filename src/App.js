@@ -1,4 +1,4 @@
-// import MyFirstApp from "./study.js";
+import MyFirstApp from "./study.js";
 // import { UserInfo } from "./study.js";
 // import DashBoard from "./nestingComponents/dashboard.js";
 import React from "react";
@@ -11,11 +11,11 @@ import React from "react";
 // import Submit from "./Events/onSubmit.js";
 // import Mouse from "./Events/onMouseOver.js";
 // import Search from "./Events/keyDown.js";
-import Form from "./Form-Validation/Form.js";
+// import Form from "./Form-Validation/Form.js";
 function App() {
   return (
     <> 
-      {/* <MyFirstApp/> */}
+      <MyFirstApp/>
       {/* multiple component */}
       {/* <UserInfo name={"etiene"} email={"etine@gmail.com"}/> */}
       {/* <DashBoard/> */}
@@ -29,7 +29,7 @@ function App() {
       {/* < Mouse /> */}
       {/* <HandleKey/> */}
       {/* <Search/> */}
-      < Form />
+      {/* < Form /> */}
     </>
 
   );

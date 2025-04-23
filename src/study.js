@@ -22,13 +22,14 @@ const data = [
         //   <p>Email: {data.email}</p>
         //   <p>Password: {data.password}</p>
         // </div>
-       
-        <div>
+        
+        <div className="p-5 m-3 mt-5 bg-blue-200 grid grid-cols-4 shadow-xl rounded-md flex">
+            
           {data.map((user) => {
            return(
                   <div key={user.id}>
-                  <p><strong>Name:</strong> {user.name}</p> 
-                  <p><strong>Email:</strong> {user.email}</p> 
+                  <p className="font-mono "><strong>Name:</strong> {user.name}</p> 
+                  <p className="font-mono "><strong>Email:</strong> {user.email}</p> 
                   <p><strong>Password:</strong> {user.password}</p> 
                 </div>     
             )})}
