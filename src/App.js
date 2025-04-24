@@ -12,7 +12,14 @@ import Program from "./states/useState.js";
 // import Mouse from "./Events/onMouseOver.js";
 // import Search from "./Events/keyDown.js";
 // import Form from "./Form-Validation/Form.js";
-function App() {
+  //  import ShowPassword from "./conditionalRendering/showPassword.js"; 
+  //  import Todo from "./states/to-do-list.js";
+  // import { ShowDetails } from "./conditionalRendering/showPassword.js";
+  // import ShowDetails from "./conditionalRendering/HideItems.js";
+  // import CountDown from "./useEffect/countDown.js";
+  import FetchingData from "./useEffect/fetchingDataFromAPI.JS";
+   function App() {
+
   return (
     <> 
       {/* <MyFirstApp/> */}
@@ -21,7 +28,7 @@ function App() {
       {/* <DashBoard/> */}
       {/* <Product/> */}
       {/* <Propss name={"Etiene"} place={"Bugesera"}/> */}
-      <Program/>
+      {/* <Program/> */}
       {/* <Todo/> */}
       {/* <Clicks/> */}
       {/* <Chages/> */}
@@ -30,6 +37,12 @@ function App() {
       {/* <HandleKey/> */}
       {/* <Search/> */}
       {/* < Form /> */}
+      {/* <ShowPassword/> */}
+      {/* <Todo/> */}
+      
+      {/* <ShowDetails/> */}
+      {/* < CountDown /> */}
+      <FetchingData/>
     </>
 
   );
