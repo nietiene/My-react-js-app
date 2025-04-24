@@ -1,9 +1,9 @@
-import MyFirstApp from "./study.js";
+// import MyFirstApp from "./study.js";
 // import { UserInfo } from "./study.js";
 // import DashBoard from "./nestingComponents/dashboard.js";
 import React from "react";
 // import Product from "./cards/Cards.js";
-import Program from "./states/useState.js";
+// import Program from "./states/useState.js";
 // import { Propss } from "./cards/Cards.js";
 // import Todo from "./states/to-do-list.js";
 // import Clicks from "./Events/onClick.js";
@@ -17,7 +17,9 @@ import Program from "./states/useState.js";
   // import { ShowDetails } from "./conditionalRendering/showPassword.js";
   // import ShowDetails from "./conditionalRendering/HideItems.js";
   // import CountDown from "./useEffect/countDown.js";
-  import FetchingData from "./useEffect/fetchingDataFromAPI.JS";
+  // import FetchingData from "./useEffect/fetchingDataFromapi.js"; failed
+  // import Page from "./useEffect/pageTittle";
+  import Dates from "./useEffect/Oclock";
    function App() {
 
   return (
@@ -42,7 +44,9 @@ import Program from "./states/useState.js";
       
       {/* <ShowDetails/> */}
       {/* < CountDown /> */}
-      <FetchingData/>
+      {/* <FetchingData/> */}
+      {/* <Page/> */}
+      <Dates />
     </>
 
   );
