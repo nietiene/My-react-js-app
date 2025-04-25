@@ -19,7 +19,9 @@ import React from "react";
   // import CountDown from "./useEffect/countDown.js";
   // import FetchingData from "./useEffect/fetchingDataFromapi.js"; failed
   // import Page from "./useEffect/pageTittle";
-  import Dates from "./useEffect/Oclock";
+  // import Dates from "./useEffect/Oclock";
+  // import Theme from "./useEffect/DarkMode";
+  import Notes from "./useEffect/AutoSave";
    function App() {
 
   return (
@@ -46,7 +48,9 @@ import React from "react";
       {/* < CountDown /> */}
       {/* <FetchingData/> */}
       {/* <Page/> */}
-      <Dates />
+      {/* <Dates /> */}
+      {/* <Theme/> */}
+      <Notes />
     </>
 
   );
