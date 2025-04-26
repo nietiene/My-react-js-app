@@ -1,7 +1,7 @@
 // import MyFirstApp from "./study.js";
 // import { UserInfo } from "./study.js";
 // import DashBoard from "./nestingComponents/dashboard.js";
-import React from "react";
+import React, { useState } from "react";
 // import Product from "./cards/Cards.js";
 // import Program from "./states/useState.js";
 // import { Propss } from "./cards/Cards.js";
@@ -21,10 +21,12 @@ import React from "react";
   // import Page from "./useEffect/pageTittle";
   // import Dates from "./useEffect/Oclock";
   // import Theme from "./useEffect/DarkMode";
-  import Notes from "./useEffect/AutoSave";
+  // import Notes from "./useEffect/AutoSave";
+  // import Lightt from "./light/lightt";
+// import Product from "./useEffect/product Filter/products";
+import Todo from "./Todo-App/Todo";
    function App() {
-
-  return (
+    return (
     <> 
       {/* <MyFirstApp/> */}
       {/* multiple component */}
@@ -50,7 +52,10 @@ import React from "react";
       {/* <Page/> */}
       {/* <Dates /> */}
       {/* <Theme/> */}
-      <Notes />
+      {/* <Notes /> */}
+    {/* <Product/>    */}
+    {/* <Lightt /> */}
+    <Todo/>
     </>
 
   );

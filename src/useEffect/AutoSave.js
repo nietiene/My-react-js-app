@@ -10,6 +10,7 @@ const Notes = () => {
     }, []);
 
     useEffect(() => {
+        localStorage.setItem("note", note);
         localStorage.getItem("note", note);
 
     }, [note]);
